@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.head-title {
+  padding: 0.725rem;
+  font-family: Rowdies;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.header-div {
+  background-image: url("./img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-logo {
+  width: 200px;
+  min-width: 30%;
+  padding: 2rem;
+}
+
+.header-gps {
+  max-width: 8%;
+  padding: 2rem;
+}
+
+.address-line {
+  font-family: Ubuntu;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.products {
+  padding: 30px;
+}
+
+.category {
+  text-align: center;
+  padding: 0.3rem;
+  font-family: Rowdies;
+  color: #ffffff;
+}
+
+.footer-rights {
+  padding: 5px;
+  font-family: Ubuntu;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.card-img-top {
+  max-width: 100%;
+  font-family: Ubuntu;
+}
+
+.footer-link {
+  color: #ffffff;
+}
+
+#btn-back-to-top {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: block;
+}
